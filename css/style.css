@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Fira;
+    src: url(../fonts/fira-sans.ttf);
+}
+@font-face {
+    font-family: PatrickHand;
+    src: url(../fonts/PatrickHand-Regular.ttf);
+}
+.cabecalho{
+    background-image: linear-gradient(#FF8C00 80%, #ffffff);
+    width: 100%;
+    height: 250px;
+    border: 1.5px solid #000000;
+    position: relative;
+}
+#logo{
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+hgroup{
+    position:absolute;
+    margin-left: 250px;
+    margin-top: 100px;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #000000;
+}
+.titulo{
+    font-family: Fira;
+    font-size: 50px;
+}
+.subtitulo{
+    font-family: PatrickHand;
+}
+.content, .artigo{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+.div{
+    width: 100%;
+    height: 1000px;
+    margin-top: 20px;
+    border: 1px solid #000000;
+    text-align: center;
+    background-color: #FF8C00;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #000000;
+}
+#banner{
+    width: 1000px;
+    height: 500px;
+}
+.foto{
+    border: 20px ridge #ffffff;
+    position: relative;
+}
+.foto img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 2px 2px 2px #000000;
+}
+.legenda{
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.legenda:hover{
+    opacity: 100%;
+    transition: 2s;
+}
+p{
+    color: #ffffff;
+    font-family: PatrickHand;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #000000;
+    padding: 10px;
+}
+.rodape{
+    background-color: #FF8C00;
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
