@@ -75,13 +75,13 @@ hgroup{
 }
 .legenda:hover{
     opacity: 100%;
-    transition: 2s;
+    transition: 1s;
 }
 p{
     color: #ffffff;
     font-family: PatrickHand;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
     font-size: 30px;
     text-shadow: 2px 2px 2px #000000;
     padding: 10px;
